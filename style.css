@@ -58,7 +58,7 @@ nav a {
 /* Images */
 img {
   width: 100%;
-  max-width: 200px;
+  max-width: 400px;
   height: auto;
 }
 
@@ -75,4 +75,66 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.groupHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.itemHeader {
+  flex: 1;
+  flex-basis: auto;
+  margin: 5px;
+}
+
+.groupAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.itemAbout {
+  flex: 1;
+  flex-basis: auto;
+  margin: 20px;
+}
+
+.groupPort {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.itemPort {
+  flex: 1;
+  flex-basis: auto;
+  margin: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+section > h3 {
+  text-align: center;
+}
+
+.font-fourteen {
+  font-size: 14px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+section h3 {
+  text-align: center;
+  width: 100%;
+}
+
+section div {
+  text-align: left;
+  width: 100%;
 }
